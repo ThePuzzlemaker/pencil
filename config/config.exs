@@ -12,7 +12,7 @@ config :nostrum,
   caches: %{presences: Nostrum.Cache.PresenceCache.NoOp}
 
 # change to whatever prefix you wish
-config :pencil_discord, :bot, prefix: "pencil"
+config :pencil_discord, :bot, prefix: "pencil "
 
 import_config "#{config_env()}.exs"
 

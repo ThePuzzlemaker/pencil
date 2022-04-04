@@ -32,7 +32,7 @@ defmodule Pencil.Discord.Command.Parser do
 
   parse_prefix =
     choice([
-      ignore(string("#{@prefix} ")),
+      ignore(string(@prefix)),
       ignore(string("<@!"))
       |> post_traverse(integer(min: 1), {:validate_prefix_id, []})
       |> ignore(string(">"))

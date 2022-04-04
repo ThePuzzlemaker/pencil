@@ -80,7 +80,7 @@ defmodule Pencil.Discord.Command do
               Util.begin_embed(:error)
               | title: "Error",
                 description:
-                  "Sorry, I couldn't understand what you meant. Try using `#{@prefix} help #{cmd_name}`?"
+                  "Sorry, I couldn't understand what you meant. Try using `#{String.trim(@prefix)} help #{cmd_name}`?"
             }
           })
 
