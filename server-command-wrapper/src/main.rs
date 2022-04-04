@@ -1,10 +1,10 @@
 use std::env;
 use std::process::{self, Stdio};
-use tokio::io::{self, AsyncBufReadExt, AsyncWriteExt, BufReader};
+use tokio::io::{self, AsyncWriteExt};
 use tokio::process::Command;
 
 use color_eyre::eyre;
-use tokio::{join, select};
+use tokio::select;
 
 #[tokio::main]
 async fn main() -> eyre::Result<()> {
