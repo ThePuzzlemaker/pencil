@@ -1,0 +1,10 @@
+[package]
+name = "server-command-wrapper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "0.6.1"
+tokio = { version = "1.17.0", features = ["rt-multi-thread", "io-std", "io-util", "process", "macros"]}
