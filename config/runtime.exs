@@ -13,3 +13,5 @@ config :pencil_core, :updater,
   version_file: "version.txt",
   check_every: ~T[12:00:00],
   check_on_restart: true
+
+import_config "runtime.local.exs"
