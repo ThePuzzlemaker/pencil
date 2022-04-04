@@ -28,3 +28,4 @@ run
 config/*.local.exs
 target
 config/runtime.exs
+.elixir_ls
