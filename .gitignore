@@ -27,3 +27,4 @@ pencil_discord-*.tar
 run
 config/*.local.exs
 target
+config/runtime.exs
