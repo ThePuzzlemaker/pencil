@@ -17,6 +17,6 @@ config :pencil_discord, :bot, prefix: "pencil"
 import_config "#{config_env()}.exs"
 
 # local build configuration--I use this to not clog up git with stuff specific to my configuration.
-if File.exists?("./#{config_env()}.local.exs") do
+if File.exists?(Path.expand("./#{config_env()}.local.exs", __DIR__)) do
   import_config "#{config_env()}.local.exs"
 end
