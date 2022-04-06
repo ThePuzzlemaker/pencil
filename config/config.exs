@@ -11,8 +11,15 @@ config :nostrum,
   gateway_intents: [:guild_messages, :direct_messages],
   caches: %{presences: Nostrum.Cache.PresenceCache.NoOp}
 
-# change to whatever prefix you wish
-config :pencil_discord, :bot, prefix: "pencil "
+config :pencil_discord, :bot,
+  # Change to whatever prefix you wish. This is space-sensitive,
+  # i.e. prefix: "pencil " means "pencil ping" works,
+  # prefix: "pencil" means "pencilping" works, but "pencil ping" doesn't.
+  # This will likely change in the future.
+  prefix: "pencil ",
+  # The color, in hex, that embeds will have. Make sure this starts with `0x`
+  # and doesn't include a `#`.
+  embed_color: 0xFFD042
 
 import_config "#{config_env()}.exs"
 

@@ -1,5 +1,5 @@
 defmodule Pencil.Discord.Util do
-  @embed_color 0xA43451
+  @embed_color Application.compile_env!(:pencil_discord, [:bot, :embed_color])
   @embed_color_error 0xA80D29
   alias Nostrum.Struct.Embed
 
