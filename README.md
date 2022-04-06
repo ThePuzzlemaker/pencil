@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ThePuzzlemaker/paper/main/assets/logo256.png" alt="Pencil logo" width="256" align="right"/>
+<img src="https://raw.githubusercontent.com/ThePuzzlemaker/pencil/main/assets/logo256.png" alt="Pencil logo" width="256" align="right"/>
 
 # Pencil
 
