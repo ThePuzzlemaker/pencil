@@ -13,7 +13,6 @@ defmodule Pencil.Discord.Application do
       # thus need the extra performance of multiple consumers), please let me
       # know!
       {Pencil.Discord.Consumer, []},
-      {Phoenix.PubSub, name: :pencil},
       {Pencil.Discord.Notifier, Application.fetch_env!(:pencil_discord, :bot)}
     ]
 

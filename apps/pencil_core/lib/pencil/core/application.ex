@@ -6,6 +6,7 @@ defmodule Pencil.Core.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      {Phoenix.PubSub, name: :pencil},
       {Pencil.Core.Wrapper.Watchdog, {}}
     ]
 
