@@ -1,9 +1,11 @@
 %{
+  "artificery": {:hex, :artificery, "0.4.3", "0bc4260f988dcb9dda4b23f9fc3c6c8b99a6220a331534fdf5bf2fd0d4333b02", [:mix], [], "hexpm", "12e95333a30e20884e937abdbefa3e7f5e05609c2ba8cf37b33f000b9ffc0504"},
   "certifi": {:hex, :certifi, "2.9.0", "6f2a475689dd47f19fb74334859d460a2dc4e3252a3324bd2111b8f0429e7e21", [:rebar3], [], "hexpm", "266da46bdb06d6c6d35fde799bcb28d36d985d424ad7c08b5bb48f5b5cdd4641"},
   "chacha20": {:hex, :chacha20, "1.0.3", "26372176993172260968b36b4e7bc2e007e6b2b397ae08083e4836df67cdf03c", [:mix], [], "hexpm", "27f23b680e63f04b5bced77a9d8867033b381c091f92d544de0ad93accfb7cec"},
   "cowlib": {:hex, :remedy_cowlib, "2.11.1", "7abb4d0779a7d1c655f7642dc0bd0af754951e95005dfa01b500c68fe35a5961", [:rebar3], [], "hexpm", "0b613dc308e080cb6134285f1b1b55c3873e101652e70c70010fc6651c91b130"},
   "curve25519": {:hex, :curve25519, "1.0.4", "e570561b832c29b3ce4fd8b9fcd9c9546916188860568f1c1fc9428d7cb00894", [:mix], [], "hexpm", "1a068bf9646e7067bf6aa5bf802b404002734e09bb5300f098109df03e31f9f5"},
   "dialyxir": {:hex, :dialyxir, "1.1.0", "c5aab0d6e71e5522e77beff7ba9e08f8e02bad90dfbeffae60eaf0cb47e29488", [:mix], [{:erlex, ">= 0.2.6", [hex: :erlex, repo: "hexpm", optional: false]}], "hexpm", "07ea8e49c45f15264ebe6d5b93799d4dd56a44036cf42d0ad9c960bc266c0b9a"},
+  "distillery": {:hex, :distillery, "2.1.1", "f9332afc2eec8a1a2b86f22429e068ef35f84a93ea1718265e740d90dd367814", [:mix], [{:artificery, "~> 0.2", [hex: :artificery, repo: "hexpm", optional: false]}], "hexpm", "bbc7008b0161a6f130d8d903b5b3232351fccc9c31a991f8fcbf2a12ace22995"},
   "ed25519": {:hex, :ed25519, "1.4.0", "3eee373a77c8230ac25ab1d557f436eb6ec584946d7b76ca311f9fa18db84b55", [:mix], [], "hexpm", "420b52c68e2eda14a822c1d15df6c3e386f7b604d4351d6621a2f6baa68ed6dd"},
   "equivalex": {:hex, :equivalex, "1.0.2", "b9a9aaf79f2556288f514218653beaddb15afa2af407bfec37c5c4906e39f514", [:mix], [], "hexpm", "f7f8127c59be715ee6288f8c59fa8fc40e6428fb5c9bd2a001de2c9b1ff3f1c2"},
   "erlex": {:hex, :erlex, "0.2.6", "c7987d15e899c7a2f34f5420d2a2ea0d659682c06ac607572df55a43753aa12e", [:mix], [], "hexpm", "2ed2e25711feb44d52b17d2780eabf998452f6efda104877a3881c2f8c0c0c75"},
@@ -17,4 +19,5 @@
   "phoenix_pubsub": {:hex, :phoenix_pubsub, "2.0.0", "a1ae76717bb168cdeb10ec9d92d1480fec99e3080f011402c0a2d68d47395ffb", [:mix], [], "hexpm", "c52d948c4f261577b9c6fa804be91884b381a7f8f18450c5045975435350f771"},
   "poly1305": {:hex, :poly1305, "1.0.3", "9ec6b5b3b96d96b15d4f2b8a3629aad2a2f5fe82f4ea0f13e5a3512737af4ee7", [:mix], [{:chacha20, "~> 1.0", [hex: :chacha20, repo: "hexpm", optional: false]}, {:equivalex, "~> 1.0", [hex: :equivalex, repo: "hexpm", optional: false]}], "hexpm", "fbe549d59e74e7cde680e7ae6baf7fe2b5f9053a84c1b5c866f703d0651d6b22"},
   "salsa20": {:hex, :salsa20, "1.0.3", "fb900fc9b26b713a98618f3c6d6b6c35a5514477c6047caca8d03f3a70175ab0", [:mix], [], "hexpm", "91cbfa537f369d074a79f926f36a6c2ac24fba12cbadcb23aa04a759282887fe"},
+  "toml": {:hex, :toml, "0.6.2", "38f445df384a17e5d382befe30e3489112a48d3ba4c459e543f748c2f25dd4d1", [:mix], [], "hexpm", "d013e45126d74c0c26a38d31f5e8e9b83ea19fc752470feb9a86071ca5a672fa"},
 }

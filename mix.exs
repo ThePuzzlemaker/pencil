@@ -16,6 +16,6 @@ defmodule Pencil.Umbrella.MixProject do
   #
   # Run "mix help deps" for examples and options.
   defp deps do
-    []
+    [{:distillery, "~> 2.1", only: :prod}, {:toml, "~> 0.6", only: :prod}]
   end
 end
